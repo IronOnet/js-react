@@ -1,0 +1,44 @@
+{
+  "name": "js-react",
+  "version": "1.0.0",
+  "description": "A full stack javascript react refresher",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon --exec babel-nodes server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronOnet/js-react.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "fullstack",
+    "webdev"
+  ],
+  "author": "IronOnet",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/IronOnet/js-react/issues"
+  },
+  "homepage": "https://github.com/IronOnet/js-react#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5",
+    "webpack": "^5.11.0"
+  }
+}
